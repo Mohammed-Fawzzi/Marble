@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- Style -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Swiper -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <title>Marble Boutique</title>
+  </head>
+  <body>
+    <!-- Start Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <div class="container">
+        <a>
+          <img
+            src="./imgs/Marble-Boutique-logo.webp"
+            alt="Marble-Boutique-logo"
+            class="w-50"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div class="d-flex flex-column">
+            <!-- <div class="d-flex upper-nav" role="search">
+              <a href="#" class="text-decoration-none mt-2 nav-link"
+                >OUR MARBLE & STONE JOURNEY</a
+              >
+              <div class="search-container">
+                <input
+                  class="form-control me-2 rounded-pill"
+                  type="search"
+                  placeholder="Search for products..."
+                  aria-label="Search"
+                />
+                <div class="search-icon">
+                  <i class="fa-solid fa-search"></i>
+                </div>
+              </div>
+              <div class="ms-3 mt-2 fs-5 nav-cart">
+                <i class="fa-solid fa-shopping-cart text-white"></i>
+                <div class="nav-span">
+                  <span>0</span>
+                </div>
+              </div>
+            </div> -->
+
+            <div>
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" href="index.html#home">Home</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="dropdownId"
+                    data-bs-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                    >Products</a
+                  >
+                  <div class="dropdown-menu" aria-labelledby="dropdownId">
+                    <a class="dropdown-item" href="#">Natural Marble</a>
+                    <a class="dropdown-item" href="#">Limestone</a>
+                    <a class="dropdown-item" href="#">Granite</a>
+                    <a class="dropdown-item" href="#">Manufactured Marble</a>
+                    <a class="dropdown-item" href="#">All Products</a>
+                  </div>
+                </li>
+
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                    >Services</a
+                  >
+
+                  <ul class="dropdown-menu">
+                    <li class="nav-item dropend">
+                      <a
+                        class="nav-link dropdown-toggle"
+                        href="#"
+                        role="button"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                      >
+                        By Material Type
+                      </a>
+
+                      <ul class="dropdown-menu">
+                        <li>
+                          <a class="dropdown-item" href="#">Stone's Projects</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"
+                            >Marble's Projects</a
+                          >
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"
+                            >Manufactured Marble's Projects</a
+                          >
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"
+                            >Mosaics & Water Jet Projects</a
+                          >
+                        </li>
+                      </ul>
+                    </li>
+
+                    <li class="nav-item dropend">
+                      <a
+                        class="nav-link dropdown-toggle"
+                        href="#"
+                        role="button"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                      >
+                        By Project Type
+                      </a>
+
+                      <ul class="dropdown-menu">
+                        <li>
+                          <a class="dropdown-item" href="#"
+                            >Airports Projects</a
+                          >
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"
+                            >Automobile Exhibition Projects</a
+                          >
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#">Banks Projects</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"
+                            >Corporation Projects</a
+                          >
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"
+                            >Hospitals & Medical clinics Projects</a
+                          >
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#">Hotels Projects</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#">Malls Projects</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"
+                            >Metro Station Projects</a
+                          >
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#">Mosques Projects</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"
+                            >Residential Complexes & Places Projects</a
+                          >
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"
+                            >Restaurants Projects</a
+                          >
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html#collection">Simulator</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html#projects">Catalogs</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact-us.html">Contact Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about-us.html">About us</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Header -->
+    <section id="contact-us" class="p-5">
+      <div class="container my-5 overflow-hidden">
+        <div class="row d-flex justify-content-between">
+          <div class="col-md-6">
+            <img
+              src="./imgs/Marble-Boutique-logo.webp"
+              alt="Marble-Boutique-logo"
+              class="w-50 my-5"
+            />
+            <p>
+              For 35 years, Marble Boutique has been extracting, manufacturing
+              and suppling precious natural stones that have witnessed thousands
+              of years of history.
+            </p>
+            <div class="f-p text-start">
+              <ul class="list-unstyled fp-last">
+                <li>
+                  <i class="fas fa-phone fs-4 me-2"></i> +966 11 21 92 329
+                </li>
+                <li>
+                  <i class="fas fa-envelope fs-4 me-2"></i> Fateh@alrajhi.com.sa
+                </li>
+                <li>
+                  <i class="fa-solid fa-location-dot fs-4 me-2"></i> Warehouse:
+                  Al Aziziyah, Riyadh 14513, Saudi Arabia
+                </li>
+                <li>
+                  <i class="fa-solid fa-location-dot fs-4 me-2"></i> Office:
+                  Olaya St, Al Olaya, Riyadh 12222, Saudi Arabia
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-6 cont-form p-5">
+            <input
+              type="text"
+              class="form-control w-100 my-5 py-3 rounded-pill"
+              placeholder="name"
+            />
+            <input
+              type="text"
+              class="form-control w-100 my-5 py-3 rounded-pill"
+              placeholder="email"
+            />
+            <textarea
+              class="form-control my-3"
+              placeholder="Message"
+              rows="5"
+            ></textarea>
+            <button class="btn rounded-pill px-5 mt-3">Send</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+      <div class="container">
+        <div class="row py-5 gy-5">
+          <div class="col-md-3 text-center">
+            <img
+              src="./imgs/Marble-Boutique-logo.webp"
+              alt="Marble-Boutique-logo"
+              class="w-50"
+            />
+            <p class="my-4">
+              For 35 years, Marble Boutique has been extracting, manufacturing
+              and suppling precious natural stones that have witnessed thousands
+              of years of history
+            </p>
+            <div class="d-flex justify-content-between p-3">
+              <div class="face-book">
+                <i class="fa-brands fa-facebook fs-3"></i>
+              </div>
+              <div class="instagram">
+                <i class="fa-brands fa-instagram fs-3"></i>
+              </div>
+              <div class="pinterest">
+                <i class="fa-brands fa-pinterest fs-3"></i>
+              </div>
+              <div class="location">
+                <i class="fa-solid fa-location-dot fs-3"></i>
+              </div>
+              <div class="linkeidin">
+                <i class="fa-brands fa-linkedin-in fs-3"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="f-p">
+              <di>
+                <h5 class="fw-bold f-p-title">Products</h5>
+              </di>
+              <ul class="list-unstyled my-3">
+                <li><a href="#">NATURAL MARBLE</a></li>
+                <li><a href="#">LIMESTONE</a></li>
+                <li><a href="#">GRANITE</a></li>
+                <li><a href="#">MANUFACTURED MARBLE</a></li>
+                <li><a href="#">ALL PRODUCTS</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="f-p">
+              <di>
+                <h5 class="fw-bold f-p-title">About</h5>
+              </di>
+              <ul class="list-unstyled my-3">
+                <li>
+                  <a href="about-us.html#about-us">About Marble Boutique</a>
+                </li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Catalogs</a></li>
+                <li><a href="#">Our Marble & Stone Journey</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="f-p text-start">
+              <ul class="list-unstyled fp-last">
+                <li>
+                  <i class="fas fa-phone fs-4 me-2"></i> +966 11 21 92 329
+                </li>
+                <li>
+                  <i class="fas fa-envelope fs-4 me-2"></i> Fateh@alrajhi.com.sa
+                </li>
+                <li>
+                  <i class="fa-solid fa-location-dot fs-4 me-2"></i> Warehouse:
+                  Al Aziziyah, Riyadh 14513, Saudi Arabia
+                </li>
+                <li>
+                  <i class="fa-solid fa-location-dot fs-4 me-2"></i> Office:
+                  Olaya St, Al Olaya, Riyadh 12222, Saudi Arabia
+                </li>
+                <li>
+                  <button class="btn text-white">Contact</button>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
